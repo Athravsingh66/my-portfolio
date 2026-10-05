@@ -1,6 +1,5 @@
-/* ==========================================================================
-   1. RESET & VARIABLES
-   ========================================================================== */
+/* 1. RESET & VARIABLES */
+
 :root {
     --bg-primary: #0a0f1d;
     --bg-secondary: #111827;
@@ -45,9 +44,8 @@ ul {
     list-style: none;
 }
 
-/* ==========================================================================
-   2. NAVBAR
-   ========================================================================== */
+/* 2. NAVBAR */
+
 header {
     position: sticky;
     top: 0;
@@ -108,9 +106,8 @@ header {
     width: 100%;
 }
 
-/* ==========================================================================
-   3. HERO SECTION
-   ========================================================================== */
+/* 3. HERO SECTION */
+
 .home-content {
     max-width: 1200px;
     margin: 4rem auto;
@@ -193,6 +190,7 @@ header {
 }
 
 /* Hero Avatar Card */
+
 .hero-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -228,9 +226,8 @@ header {
     font-size: 0.95rem;
 }
 
-/* ==========================================================================
-   4. ABOUT SECTION
-   ========================================================================== */
+ /* 4. ABOUT SECTION */
+
 .about-content {
     max-width: 1200px;
     margin: 6rem auto 3rem auto;
@@ -274,9 +271,8 @@ header {
     font-weight: 600;
 }
 
-/* ==========================================================================
-   5. SKILLS SECTION
-   ========================================================================== */
+/* 5. SKILLS SECTION */
+
 .skills-details {
     max-width: 1200px;
     margin: 8rem auto 1rem auto;
@@ -339,9 +335,8 @@ header {
     font-size: 0.95rem;
 }
 
-/* ==========================================================================
-   6. PROJECTS SECTION
-   ========================================================================== */
+/* 6. PROJECTS SECTION */
+
 .projects-section,
 .certificates-section {
     max-width: 1200px;
@@ -427,9 +422,8 @@ header {
     letter-spacing: 0.5px;
 }
 
-/* ==========================================================================
-   7. CERTIFICATES EXTRA STYLING
-   ========================================================================== */
+/* 7. CERTIFICATES EXTRA STYLING */
+
 .certificate-card h3 {
     font-size: 1.25rem;
 }
@@ -441,9 +435,8 @@ header {
     margin-bottom: 0.5rem !important;
 }
 
-/* ==========================================================================
-   8. CONTACT SECTION
-   ========================================================================== */
+/* 8. CONTACT SECTION */
+   
 .contact-section {
     max-width: 1200px;
     margin: 6rem auto;
@@ -499,9 +492,8 @@ header {
     transform: translateY(-3px);
 }
 
-/* ==========================================================================
-   9. FOOTER
-   ========================================================================== */
+/* 9. FOOTER */
+
 footer {
     border-top: 1px solid var(--border-color);
     padding: 2.5rem 2rem;
@@ -511,9 +503,8 @@ footer {
     background: var(--bg-primary);
 }
 
-/* ==========================================================================
-   10. RESPONSIVE DESIGN
-   ========================================================================== */
+/* 10. RESPONSIVE DESIGN */
+ 
 @media (max-width: 900px) {
     .home-content {
         grid-template-columns: 1fr;
@@ -542,6 +533,7 @@ footer {
 }
 
 /* Prevent sticky navbar from covering section titles on jump links */
+
 section,
 [id] {
     scroll-margin-top: 100px;

@@ -2,7 +2,7 @@
 
 A clean, responsive, and modern personal portfolio website built with HTML and CSS. This site showcases my projects, technical skills, and background as a developer.
 
-🌐 **Live Demo:** [Insert Your GitHub Pages Link Here]
+🌐 **Live Demo:** : https://athravsingh66.github.io/my-portfolio/
 
 
 ## 🛠️ Built With
